@@ -1,9 +1,10 @@
 <div class="search-container">
-  <input type="text"
+  <input #searchInput type="text"
          placeholder="Buscar película..."
          [(ngModel)]="searchTerm"
          class="search-input"
-         (input)=onSearch($event.target.value)>
+         (input)=onSearch($event.target.value)
+         (keydown)="onKeyDown($event, index)">
 </div>
 
 <div *ngIf="error" class="error-message">
