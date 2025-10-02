@@ -16,4 +16,4 @@
 
 ### Traspilación a ES5
 - En el archivo .browserslistrc se ha habilitado como navegador compatible IE11
-- En el archivo tsconfig.json se ha puesto como target es2015
+- En el archivo tsconfig.json se ha puesto como target es5
