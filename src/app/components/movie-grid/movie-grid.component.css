@@ -1,0 +1,71 @@
+.grid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.movie-card {
+  float: left;
+  width: 300px;
+  margin: 10px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.movie-card.focused{
+  box-shadow: 0 0 0 3px #3f51b5;
+  transform: scale(1.03);
+}
+
+.movie-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.movie-info {
+  padding: 8px;
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.movie-year {
+  font-size: 15px;
+  color: #666;
+  margin: 4px 0 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 50px;
+}
